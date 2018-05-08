@@ -1,0 +1,25 @@
+/* External Font CSS */
+:root {
+  --primaryFont: 'Playfair Display', serif;
+  --secondaryFont: 'Lora', serif;
+}
+
+
+/* CONTENT FORMAT FOR ALL ART PAGES */
+figure {
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  clear: right;
+}
+
+figcaption {
+  font: .9em var(--secondaryFont);
+  text-align: center;
+  margin-top: 20px;
+}
+
+figure img {
+  max-width: 100%;
+  max-height: 50vh;
+}

@@ -1,0 +1,97 @@
+/*Title Formatting for LUIS FELIPE VARGAS/Art and Scientific Illustration */
+:root {
+  --primaryFont: 'Playfair Display', serif;
+}
+header {
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  font-family: var(--primaryFont);
+  letter-spacing: 6px;
+  overflow: hidden;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 2.5em;
+}
+header h3 {
+  margin-top: 0px;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* Size formatting for the page selection boxes */
+section {
+  overflow: hidden;
+}
+
+.item {
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 200px;
+  height: 65vh;
+  margin: 2px;
+  padding-top: 100px;
+}
+
+.primary {
+  width: 48%;
+}
+.secondary {
+  width: 24%;
+}
+
+/*Tile images */
+#about {
+  background-image: url(../images/treehead.jpg);
+  background-size: cover;
+}
+#gallery {
+  background-image: url(../images/heart.jpg);
+  background-size: cover;
+}
+#contact {
+  background-image: url(../images/Exclusion.jpg);
+  background-size: cover;
+}
+
+/*Styling for the link tags on the page selection boxes */
+a {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 1em 1.8em;
+  margin-top: auto;
+  border-radius: 3px;
+  text-decoration: none;
+  font: bold 1.3em var(--primaryFont), sans-serif;
+  letter-spacing: 4px;
+}
+a, a:active, a:hover, a:visited {
+  color: black;
+}
+
+/* Inversion effect for hovering over images */
+.item:hover {
+  filter: invert(100);
+  box-shadow: 0 5px 10px DarkGray;
+}
+
+/* Formastting for the footer.
+    immediate links to external pages, social media. */
+footer {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  bottom: 0px;
+  position: fixed;
+}
+
+p {
+  font: italic .8em serif;
+}
+
+footer img {
+  width: 45px;
+}

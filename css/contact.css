@@ -1,0 +1,23 @@
+:root {
+  --primaryFont: 'Playfair Display', serif;
+  --secondaryFont: 'Lora', serif;
+  --h3Title: small-caps 1.5em var(--primaryFont);
+}
+
+/*Tabl;e formatting */
+section {
+  width: 100%;
+  padding: 15px 30%;;
+}
+table {
+  width: 20%;
+}
+td {
+  font: .95em var(--secondaryFont);
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+a img {
+  width: 70px;
+}

@@ -1,0 +1,46 @@
+:root {
+  --primaryFont: 'Playfair Display', serif;
+  --secondaryFont: 'Lora', serif;
+  --h3Title: small-caps 1.5em var(--primaryFont);
+}
+
+h3 {
+  text-align: center;
+  font: var(--h3Title);
+}
+/* COMMON NAVIGATION FORMAT */
+nav {
+  box-sizing: border-box;
+  width: 100%;
+  height: 15vh;
+  margin: 10px 0px;
+  border-bottom: solid 2px black;
+}
+
+nav ul {
+  width: 80%;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  font: small-caps 1.5em var(--primaryFont);
+  padding: 10px 30px;
+}
+
+nav img {
+  width: inherit;
+}
+
+nav a {
+  text-decoration: none;
+  width: 100%;
+}
+
+nav a:hover {
+  background: linear-gradient(gray, white);
+}
+
+nav a:hover; a:active, a:visited {
+  color: black;
+}

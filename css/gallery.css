@@ -1,0 +1,61 @@
+:root {
+  --primaryFont: 'Playfair Display', serif;
+  --secondaryFont: 'Lora', serif;
+  --h3Title: small-caps 1.5em var(--primaryFont);
+}
+
+/* BOX POSISTIONING AND EFFECTS */
+section {
+  overflow: auto;
+  text-align: center;
+  padding: auto;
+  width: 100%;
+}
+
+.box {
+  float: left;
+  width: 40%; height: 40vh;
+  box-sizing: border-box;
+  margin: 2px;
+  padding-top: 100px;
+}
+
+.box a {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 1em 1.8em;
+    margin-top: auto;
+    border-radius: 3px;
+    text-decoration: none;
+    font: bold 1.3em var(--primaryFont), sans-serif;
+    letter-spacing: 4px;
+}
+
+a, a:active, a:hover, a:visited {
+  color: black;
+}
+
+.box:hover {
+  filter: invert(100);
+  box-shadow: 0 5px 10px DarkGray;
+}
+
+/* BACKGROUND IMAGES FOR TILES */
+
+#science {
+    background-image: url(../images/heart.jpg);
+    background-size: cover;
+}
+#sketch {
+    background-image: url(../images/treehead.jpg);
+    background-size: cover;
+}
+#fan {
+    background-image: url(../images/sora.jpg);
+    background-size: cover;
+}
+#portrait {
+    background-image: url(../images/hayley.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
